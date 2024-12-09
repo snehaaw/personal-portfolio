@@ -22,7 +22,7 @@ const Home = () => {
         {/* Paragraph */}
         <p className={`${styles.paragraph} text-teal-500`}>
           Passionate about building impactful solutions and inspiring others through
-          innovation and collaboration. Let&apos; explore new opportunities and create a better future together!
+          innovation and collaboration. Let&apos;s explore new opportunities and create a better future together!
         </p>
 
         {/* Know More Button */}
