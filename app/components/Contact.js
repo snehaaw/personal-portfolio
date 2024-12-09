@@ -7,7 +7,7 @@ const Contact = () => {
       <div className={styles.contactForm}>
         <h2 className={styles.sectionTitle}>Contact Me</h2>
         <p className={styles.sectionDescription}>
-          Have a question or want to get in touch? Fill out the form below, and I’ll get back to you as soon as possible!
+          Have a question or want to get in touch? Fill out the form below, and I will get back to you as soon as possible!
         </p>
         <form action="#">
           <div className="mb-4">
