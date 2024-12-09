@@ -1,4 +1,5 @@
 import React from "react";
+import Image from 'next/image';
 
 
 const Footer = () => {
@@ -12,9 +13,10 @@ const Footer = () => {
           onClick={() => window.open("https://www.linkedin.com/in/snehaaw/", "_blank")}
           className="cursor-pointer transition-all duration-300"
         >
-          <img
+          <Image
             src="/linkedinIcon.png"
             alt="LinkedIn"
+            width={30} height={30}
             className="social-icon"
             style={{
               width: "30px",
@@ -28,9 +30,10 @@ const Footer = () => {
           onClick={() => window.open("https://github.com/snehaaw", "_blank")}
           className="cursor-pointer transition-all duration-300"
         >
-          <img
+          <Image
             src="/githubIcon.png"
             alt="GitHub"
+            width={30} height={30}
             className="social-icon"
             style={{
               width: "30px",

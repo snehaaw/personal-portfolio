@@ -1,6 +1,8 @@
 import React from "react";
 import styles from "../style";
 import { skills, experiences } from "../constants"; // Define both in constants.js
+import Image from 'next/image';
+
 
 const Experience = () => {
   return (
@@ -21,9 +23,10 @@ const Experience = () => {
         <div className="flex flex-col gap-6 w-full">
           {skills.map((skill, index) => (
             <div key={index} className="flex items-center gap-4">
-              <img
+              <Image
                 src={skill.icon}
                 alt={`${skill.name} icon`}
+                width={200} height={200}
                 className="w-10 h-10 bg-gray-800 p-2 rounded-full shadow-lg"
               />
               <div>

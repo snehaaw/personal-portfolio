@@ -1,6 +1,8 @@
 import React from "react";
 import styles, { layout } from "../style";
 import { projects } from "../constants";
+import Image from 'next/image';
+
 
 const Projects = () => {
   return (
@@ -25,9 +27,10 @@ const Projects = () => {
               className={`${styles.projectCard} hover:shadow-xl transform hover:scale-105`}
             >
               {/* Project Image */}
-              <img
+              <Image
                 src={project.image}
                 alt={`Project ${index + 1}`}
+                width={100} height={100}
                 className="w-full h-40 object-cover rounded-t-lg mb-4"
               />
 

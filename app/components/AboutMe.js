@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../style";
+import Image from 'next/image';
 
 
 
@@ -17,9 +18,10 @@ const AboutMe = () => (
     <div className={`${styles.aboutContainer}`}>
       <div className={`${styles.photoArea}`}>
         {/* Replace with your image URL */}
-        <img
+        <Image
           src='/char2.png'
           alt="About Me"
+          width={800} height={300}
           style={{ width: "800px", height: "300px", borderRadius: "20%" }}
           className={`${styles.aboutPhoto}`}
         />
